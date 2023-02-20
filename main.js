@@ -4,6 +4,9 @@ class Vector {
         this.y = y;
     }
     add(v) {
-        return new Vector(this.x + v.x, this.y + this.y);
+        return new Vector(this.x + v.x, this.y + v.y);
+    }
+    sub(v) {
+        return new Vector(this.x - v.x, this.y - v.y);
     }
 }
