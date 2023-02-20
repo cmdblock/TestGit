@@ -9,4 +9,7 @@ class Vector {
     sub(v) {
         return new Vector(this.x - v.x, this.y - v.y);
     }
+    mag() {
+        return Math.sqrt(this.x * this.x + this.y * this.y);
+    }
 }
