@@ -9,4 +9,7 @@ class Vector {
     mag() {
         return Math.sqrt(this.x * this.x + this.y * this.y);
     }
+    mag() {
+        return Math.sqrt(this.x * this.x + this.y * this.y);
+    }
 }
