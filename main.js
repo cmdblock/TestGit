@@ -9,4 +9,5 @@ class Vector {
     sub(v) {
         return new Vector(this.x - v.x, this.y - v.y);
     }
+    go() {}
 }
